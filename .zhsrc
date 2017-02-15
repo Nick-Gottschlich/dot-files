@@ -1,0 +1,48 @@
+source antigen.zsh
+
+antigen use oh-my-zsh
+
+antigen bundles <<EOBUNDLES
+
+mafredri/zsh-async
+# Guess what to install when running an unknown command.
+command-not-found
+
+# Helper for extracting different types of archives.
+extract
+
+# Help working with version control systems.
+git
+
+# nicoulaj's moar completion files for zsh
+zsh-users/zsh-completions src
+
+# ZSH port of Fish shell's history search feature.
+zsh-users/zsh-history-substring-search
+
+# Syntax highlighting bundle.
+zsh-users/zsh-syntax-highlighting
+
+# Other stuff
+atom
+grunt
+cp
+sublime
+vagrant
+gem
+brew
+aws
+npm
+sindresorhus/pure
+EOBUNDLES
+
+antigen apply
+
+alias vup="vagrant up"
+alias vssh="vagrant ssh"
+alias vst="vagrant status"
+alias vd="vagrant destroy"
+alias lah="ls -lah"
+alias la="ls -a"
+alias att="atom ."
+alias hosthere="python -m SimpleHTTPServer"
