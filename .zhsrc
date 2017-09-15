@@ -23,6 +23,10 @@ zsh-users/zsh-history-substring-search
 # Syntax highlighting bundle.
 zsh-users/zsh-syntax-highlighting
 
+#nvm support (for theme mainly)
+export NVM_LAZY_LOAD=true
+lukechilds/zsh-nvm
+
 # Other stuff
 atom
 grunt
@@ -33,7 +37,9 @@ gem
 brew
 aws
 npm
-sindresorhus/pure
+
+# Theme
+marszall87/lambda-pure
 EOBUNDLES
 
 antigen apply
@@ -46,3 +52,10 @@ alias lah="ls -lah"
 alias la="ls -a"
 alias att="atom ."
 alias hosthere="python -m SimpleHTTPServer"
+
+# PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
+PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
