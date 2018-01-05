@@ -52,8 +52,15 @@ alias lah="ls -lah"
 alias la="ls -a"
 alias att="atom ."
 alias hosthere="python -m SimpleHTTPServer"
+alias fullclear="clear && printf '\e[3J'"
+alias gpull="git pull"
+alias gpush="git push"
+alias gstat="git status"
+alias glog="git log"
+alias gco="git checkout"
+alias gpbv="git pull bv master"
+alias gfbv="git fetch bv"
 
-# PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
 PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
 
 export NVM_DIR="$HOME/.nvm"
