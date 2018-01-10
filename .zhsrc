@@ -58,6 +58,8 @@ alias gpush="git push"
 alias gstat="git status"
 alias glog="git log"
 alias gco="git checkout"
+alias gcommit="git commit"
+alias gadd="git add"
 alias gpbv="git pull bv master"
 alias gfbv="git fetch bv"
 
