@@ -62,6 +62,7 @@ alias gcommit="git commit"
 alias gadd="git add"
 alias gpbv="git pull bv master"
 alias gfbv="git fetch bv"
+alias gstash="git stash"
 
 PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
 
