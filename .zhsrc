@@ -64,7 +64,7 @@ alias gpbv="git pull bv master"
 alias gfbv="git fetch bv"
 alias gstash="git stash"
 
-PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki
+PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki:/Users/nick.gottschlich/Library/Python/3.6/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/etc/paths.d/postgresapp
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
