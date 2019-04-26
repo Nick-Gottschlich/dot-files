@@ -1,5 +1,7 @@
 source antigen.zsh
 
+# ZSH_THEME=gnzh
+
 antigen use oh-my-zsh
 
 antigen bundles <<EOBUNDLES
@@ -27,15 +29,11 @@ zsh-users/zsh-syntax-highlighting
 export NVM_LAZY_LOAD=true
 lukechilds/zsh-nvm
 
+zdharma/history-search-multi-word
+
 # Other stuff
-atom
-grunt
 cp
-sublime
-vagrant
-gem
 brew
-aws
 npm
 
 # Theme
@@ -63,9 +61,13 @@ alias gadd="git add"
 alias gpbv="git pull bv master"
 alias gfbv="git fetch bv"
 alias gstash="git stash"
+nvm alias default 10
 
-PATH=/Users/nick.gottschlich/Code/Personal/cliTerm2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki:/Users/nick.gottschlich/Library/Python/3.6/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/etc/paths.d/postgresapp
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/munki:/usr/local/bin/python
+
+export GOOGLE_APPLICATION_CREDENTIALS="/usr/local/bin/google-cloud-vision-auth.json"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/usr/local/sbin:$PATH"
